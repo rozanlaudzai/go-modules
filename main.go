@@ -1,4 +1,4 @@
-package main
+package go_modules
 
 import (
 	"fmt"
@@ -7,11 +7,7 @@ import (
 	"github.com/rozanlaudzai/go-modules/helper/oof"
 )
 
-func SayHello(name string) {
-	fmt.Printf("Hello, %v\n", name)
-}
-
-func main() {
+func awalnyaMain() {
 
 	// first commit
 	// second commit
