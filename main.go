@@ -28,7 +28,7 @@ func awalnyaMain() {
 
 	for range 100000 {
 		for _, person := range arrPersons {
-			person.Name = "kintil"
+			person.Name = "walawe"
 			person.Age = 31
 			person.Children[0] = 100
 		}

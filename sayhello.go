@@ -2,6 +2,11 @@ package go_modules
 
 import "fmt"
 
-func SayHello(name string) {
-	fmt.Printf("Hello, %v\n", name)
+type Person struct {
+	Name string
+	Age  int
+}
+
+func SayHello(person Person) {
+	fmt.Printf("Hello, %v\n", person.Name)
 }
