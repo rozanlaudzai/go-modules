@@ -7,6 +7,10 @@ import (
 	"github.com/rozanlaudzai/go-modules/helper/oof"
 )
 
+func SayHello(name string) {
+	fmt.Printf("Hello, %v\n", name)
+}
+
 func main() {
 
 	// first commit
