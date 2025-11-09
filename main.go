@@ -17,6 +17,7 @@ func awalnyaMain() {
 	// second commit of login feature
 
 	// biar ada tag
+	// biar ada tag part 2
 
 	arrPersons := []*helper.Person{
 		&helper.Person{
